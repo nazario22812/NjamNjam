@@ -1,0 +1,48 @@
+.menu-page {
+  padding: 100px 40px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+}
+
+.menu-title {
+  font-size: 56px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(255, 81, 0);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.menu-card h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.menu-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+

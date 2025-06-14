@@ -1,0 +1,205 @@
+@media (min-width: 320px) {
+    .dlanapisu h1{
+        font-size: 50px;
+    }
+    .dlanapisu p{
+        padding-top: 150px !important;
+        font-size: 25px;
+    }
+
+    .karusel {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) {
+    .dlanapisu h1{
+        font-size: 50px;
+    }
+    .dlanapisu p{
+        padding-top: 150px !important;
+        font-size: 25px;
+    }
+
+    .karusel {
+        display: none;
+    }
+}
+@media (min-width: 425px) {
+    .dlanapisu h1{
+        font-size: 50px;
+    }
+    .dlanapisu p{
+        padding-top: 150px !important;
+        font-size: 25px;
+    }
+
+    .karusel {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu  {
+    display: none;
+  }
+  .koszyk{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+    .dlanapisu h1{
+        font-size: 50px;
+    }
+    .dlanapisu p{
+        padding-top: 150px !important;
+        font-size: 25px;
+    }
+
+    .karusel {
+        height: 100vh !important;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #carouselExampleFade,
+    #carouselExampleFade .carousel-inner,
+    #carouselExampleFade .carousel-item {
+        height: 100% !important;
+    }
+
+    #carouselExampleFade img {
+        height: 100% !important;
+        width: 100% !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+}
+
+@media (min-width: 1024px)  {
+ 
+    .karusel {
+        height: 100vh !important;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #carouselExampleFade,
+    #carouselExampleFade .carousel-inner,
+    #carouselExampleFade .carousel-item {
+        height: 100% !important;
+    }
+
+    #carouselExampleFade img {
+        height: 100% !important;
+        width: 100% !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+}
+
+@media (min-width: 1280px)  {
+    html, body {
+        height: 100%;
+    }
+
+    .karusel {
+        height: 100vh !important;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #carouselExampleFade,
+    #carouselExampleFade .carousel-inner,
+    #carouselExampleFade .carousel-item {
+        height: 100% !important;
+    }
+
+    #carouselExampleFade img {
+        height: 100% !important;
+        width: 100vh !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+}
+@media (min-width: 1440px)  {
+    html, body {
+        height: 100%;
+    }
+
+    .karusel {
+        height: 100vh !important;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #carouselExampleFade,
+    #carouselExampleFade .carousel-inner,
+    #carouselExampleFade .carousel-item {
+        height: 100% !important;
+    }
+
+    #carouselExampleFade img {
+        height: 100% !important;
+        width: 100% !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+}
+
+@media (min-width: 1920px) {
+    html, body {
+        height: 100%;
+    }
+
+    .karusel {
+        height: 100vh !important;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #carouselExampleFade,
+    #carouselExampleFade .carousel-inner,
+    #carouselExampleFade .carousel-item {
+        height: 100% !important;
+    }
+
+    #carouselExampleFade img {
+        height: 100% !important;
+        width: 100vh !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+}
+@media (min-width: 2560px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .karusel {
+        height: 100vh !important;
+        width: 100vw !important;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #carouselExampleFade,
+    #carouselExampleFade .carousel-inner,
+    #carouselExampleFade .carousel-item {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    #carouselExampleFade img {
+        height: 100% !important;
+        width: 100% !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+}
