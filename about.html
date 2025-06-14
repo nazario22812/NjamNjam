@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="CSS/logo.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <title>About</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/about.css">
+        <link rel="stylesheet" href="CSS/responsive.css">
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="naglowek">
+            <div class="div1"><a href="index.html"><img  class="logo" src="CSS/logo.png" alt="logo" width="80" height="80"></a></div>
+            <div class="div2">
+                <div class="menu">
+                    <a href="about.html" class="rowmenu">About</a>
+                    <a href="menu.html" class="rowmenu">Menu</a> 
+                    <a href="order.html" class="rowmenu">Order</a>
+                    <a href="contact.html" class="rowmenu">Contact</a>
+                </div>
+            </div>
+            <div class="div3">
+                <form action="cart.html">
+                    <button class="koszyk">Cart</button>
+                </form>
+            </div>
+        </div>
+
+        <main class="about">
+            <h1 class="title">About Us</h1>
+            <p class="subtitle">Your favorite dishes – one tap away!</p>
+
+            <div class="content">
+                <div class="text">
+                    <h2>What is NjamNjam?</h2>
+                    <p>
+                        NjamNjam is a modern, student-created website designed for fast and fun food ordering.
+                        From mouth-watering burgers to sweet desserts, we let you explore a full menu and place your order in just a few clicks.
+                    </p>
+
+                    <h2>Why did we build it?</h2>
+                    <p>
+                        We wanted a simple and stylish way to browse dishes, choose your favorites, and see your cart update live —
+                        all using modern web technologies like HTML, CSS, and JavaScript.
+                    </p>
+
+                    <h2>How does it work?</h2>
+                    <p>
+                        Our interactive menu lets you add meals directly to your cart. All selections are saved locally using your browser’s storage.
+                        You can return anytime and pick up where you left off!
+                    </p>
+                </div>
+
+                <div class="image">
+                    <img src="CSS/dlakaruseli/3.jpg" alt="...">
+                </div>
+            </div>
+        </main>
+        
+        <button id="menu-toggle" class="hamburger">&#9776;</button>
+
+        <nav id="mobile-menu" class="mobile-nav" style="text-decoration: none;">
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+
+        <script>
+            const toggle = document.getElementById('menu-toggle');
+            const menu = document.getElementById('mobile-menu');
+
+  
+            toggle.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                menu.classList.toggle('active');
+            });
+
+            menu.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            document.addEventListener('click', () => {
+                menu.classList.remove('active');
+            });
+        </script>
+
+        
+    </body>
+</html>

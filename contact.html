@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="CSS/logo.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <title>Contact</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/contact.css">
+        <link rel="stylesheet" href="CSS/responsive.css">
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="naglowek">
+            <div class="div1"><a href="index.html"><img  class="logo" src="CSS/logo.png" alt="logo" width="80" height="80"></a></div>
+            <div class="div2">
+                <div class="menu">
+                    <a href="about.html" class="rowmenu">About</a>
+                    <a href="menu.html" class="rowmenu">Menu</a> 
+                    <a href="order.html" class="rowmenu">Order</a>
+                    <a href="contact.html" class="rowmenu">Contact</a>
+                </div>
+            </div>
+            <div class="div3">
+                <form action="cart.html">
+                    <button class="koszyk">Cart</button>
+                </form>
+              </div>
+        </div>
+
+        <main class="contact-page">
+          <h1 class="contact-title">Contact Us</h1>
+          <p class="contact-subtitle">Got a question about your order? Reach out!</p>
+
+          <div class="contact-content">
+              <form class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="example@mail.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Write something..."></textarea>
+
+                <button type="submit">Send</button>
+              </form>
+
+              <div class="contact-info">
+                <img src="CSS/dlakaruseli/2.jpg" alt="...">
+    
+              </div>
+          </div>
+        </main>
+
+        <button id="menu-toggle" class="hamburger">&#9776;</button>
+
+        <nav id="mobile-menu" class="mobile-nav" style="text-decoration: none;">
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+
+        <script>
+            const toggle = document.getElementById('menu-toggle');
+            const menu = document.getElementById('mobile-menu');
+
+  
+            toggle.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                menu.classList.toggle('active');
+            });
+
+            menu.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            document.addEventListener('click', () => {
+                menu.classList.remove('active');
+            });
+        </script>
+
+        
+    </body>
+</html>

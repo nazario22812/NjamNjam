@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "price": 10,
+    "image": "CSS/img/burger.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pizza",
+    "price": 12,
+    "image": "CSS/img/pizza.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sushi",
+    "price": 15,
+    "image": "CSS/img/sushi.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Salad",
+    "price": 8,
+    "image": "CSS/img/salad.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pasta",
+    "price": 11,
+    "image": "CSS/img/pasta.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tacos",
+    "price": 9,
+    "image": "CSS/img/tacos.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Steak",
+    "price": 20,
+    "image": "CSS/img/steak.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ice Cream",
+    "price": 5,
+    "image": "CSS/img/icecream.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sandwich",
+    "price": 6,
+    "image": "CSS/img/sandwich.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Soup",
+    "price": 7,
+    "image": "CSS/img/soup.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Fried Rice",
+    "price": 10,
+    "image": "CSS/img/friedrice.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Burrito Bowl",
+    "price": 11,
+    "image": "CSS/img/burritobowl.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Fish and Chips",
+    "price": 13,
+    "image": "CSS/img/fishandchips.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Quesadilla",
+    "price": 8,
+    "image": "CSS/img/quesadilla.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Caesar Salad",
+    "price": 9,
+    "image": "CSS/img/caesarsalad.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Lasagna",
+    "price": 14,
+    "image": "CSS/img/lasagna.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Falafel",
+    "price": 9,
+    "image": "CSS/img/falafel.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Ramen",
+    "price": 13,
+    "image": "CSS/img/ramen.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Hot Dog",
+    "price": 7,
+    "image": "CSS/img/hotdog.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Curry",
+    "price": 12,
+    "image": "CSS/img/curry.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Nachos",
+    "price": 8,
+    "image": "CSS/img/nachos.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Croissant",
+    "price": 5,
+    "image": "CSS/img/croissant.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Smoothie",
+    "price": 6,
+    "image": "CSS/img/smoothie.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Dumplings",
+    "price": 10,
+    "image": "CSS/img/dumplings.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Grilled Cheese",
+    "price": 7,
+    "image": "CSS/img/grilledcheese.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Avocado Toast",
+    "price": 8,
+    "image": "CSS/img/avocadotoast.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Burrito",
+    "price": 11,
+    "image": "CSS/img/burrito.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Milkshake",
+    "price": 6,
+    "image": "CSS/img/milkshake.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Crepe",
+    "price": 7,
+    "image": "CSS/img/crepe.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Cheesecake",
+    "price": 9,
+    "image": "CSS/img/cheesecake.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Kebab",
+    "price": 10,
+    "image": "CSS/img/kebab.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Baked Potato",
+    "price": 6,
+    "image": "CSS/img/bakedpotato.jpg"
+  }
+]
